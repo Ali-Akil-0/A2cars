@@ -1,0 +1,11 @@
+.SnapContainer {
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.SnapContainer::-webkit-scrollbar {
+  display: none;
+}
+.SnapContainer section {
+  scroll-snap-align: start;
+}

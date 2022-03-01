@@ -1,0 +1,7 @@
+.container__image {
+  object-fit: contain;
+  width: 100px;
+}
+.header__text {
+  text-decoration: none;
+}
